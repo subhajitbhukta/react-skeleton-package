@@ -1,0 +1,42 @@
+{
+  "name": "loading-skeleton-by-subhajit",
+  "version": "1.0.0",
+  "description": "npm package to create a beautiful skeleton loader component built with Tailwind and React",
+  "main": "use-skeleton",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/subhajitbhukta/react-skeleton-package.git"
+  },
+  "keywords": [
+    "react",
+    "skeleton",
+    "loading",
+    "loader",
+    "react-skeleton",
+    "tailwindcss",
+    "react-loading",
+    "react-component",
+    "tailwind",
+    "ui",
+    "skeleton-loader",
+    "react-loading-skeleton",
+    "react-loading-skeleton-tw"
+  ],
+  "author": "Subhajit Bhukta",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/subhajitbhukta/react-skeleton-package/issues"
+  },
+  "homepage": "https://github.com/subhajitbhukta/react-skeleton-package#readme",
+  "peerDependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.1.3",
+    "tailwindcss": "^4.1.3"
+  }
+}

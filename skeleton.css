@@ -1,0 +1,70 @@
+/* Base skeleton with deep gray */
+.skeleton-base {
+    background-color: #2D2D2D; /* Charcoal */
+    border-radius: 4px;
+  }
+  
+  .dark .skeleton-base {
+    background-color: #1F1F1F; /* Gunmetal for dark mode */
+  }
+  
+  /* Animate */
+  .skeleton-animate {
+    animation: pulse 1.5s ease-in-out infinite;
+  }
+  
+  /* Border radius variants */
+  .skeleton-rounded {
+    border-radius: 4px;
+  }
+  .skeleton-rounded-lg {
+    border-radius: 12px;
+  }
+  .skeleton-rounded-full {
+    border-radius: 9999px;
+  }
+  
+  /* Layouts */
+  .skeleton-text-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .skeleton-card-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .skeleton-table-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .skeleton-row {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 1rem;
+  }
+  
+  .skeleton-col {
+    grid-column: span 3;
+  }
+  
+  /* Responsive column spans */
+  .span-3 { grid-column: span 3; }
+  .span-4 { grid-column: span 4; }
+  .span-6 { grid-column: span 6; }
+  
+  /* Pulse animation */
+  @keyframes pulse {
+    0%, 100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.4;
+    }
+  }
+  
