@@ -1,6 +1,6 @@
 {
   "name": "loading-skeleton-by-subhajit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "npm package to create a beautiful skeleton loader component built with Tailwind and React",
   "main": "use-skeleton",
   "scripts": {
